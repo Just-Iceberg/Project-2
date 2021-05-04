@@ -226,26 +226,26 @@ h4.name {margin-top: 5px;}
     max-width:95%;
     margin: 0 auto;
     background-color: rgb(247, 197, 181);
-}
+    }
 
 .header-image {
     margin-right: 5%;
-}
+    }
 .portfolio-content {
     max-width: 28%;
     margin:15px auto;
-}
+    }
 .main-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-}
- ul.nav {
+    }
+ul.nav {
      max-width: 40%;
- }
+    }
 
 .extra {
     padding:20px;
-}
+    }   
 }
