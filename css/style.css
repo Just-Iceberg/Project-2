@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Teko', sans-serif;
-    background-color: burlywood;
+    background-color: rgb(241, 234, 221);
     color: #565759;
     font-size: 1.4em;
     letter-spacing: 0.7px;
@@ -32,7 +32,7 @@ h1 {
 }
 
 ul li {
-    background-color: orangered;
+    background-color: white;
     padding: 5px 5px;
     margin: 5px auto;
 }
@@ -43,7 +43,7 @@ ul {
     margin-bottom: 10px;
 }
 a:visited {
-    color: royalblue;
+    color: grey;
 }
 a:hover {
     color: orange;
@@ -53,7 +53,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: palegreen;
+    background-color: rgb(223, 230, 185);
 }
 
 .header {
@@ -72,13 +72,15 @@ a:hover {
 }
 
 .portfolio {
-    background-color:cornflowerblue;
+    background-color:white;
     text-align: center;
+    padding-bottom: 10px;
 } 
 
 .portfolio-heading {
     margin: 50px auto;
     font-size: 1.75rem;
+    padding-top: 35px;
 
 }
 
@@ -94,7 +96,8 @@ main p {
 }
 
 .extra {
-    background-color: darkgreen;
+    background-color: rgb(243, 204, 119);
+    padding-top: 10px;
 }
 
 h2.experience-h {
@@ -132,7 +135,7 @@ h2.experience-h {
 .bottom-nav {
     display: flex;
     justify-content: space-between;
-    border-top: crimson 1px solid;
+    border-top: rgb(204, 238, 176) 1px solid;
     padding-top: 25px;
     width: 90%;
     margin:0 auto;
@@ -155,6 +158,17 @@ h2.experience-h {
     flex-direction: row;
     justify-content: space-around;
     max-width: 50%;
+}
+
+ul li {
+    background-color:rgb(241, 234, 221);
+}
+
+li.nav {
+    background-color: violet;
+}
+h1.name {
+    font-size: 2rem;
 }
 
 .header-image {
@@ -208,6 +222,30 @@ h4.name {margin-top: 5px;}
 /*      MIN SCREEN SIZE 1024px */
 
 @media (min-width:1024px) {
+.wrapper {
+    max-width:95%;
+    margin: 0 auto;
+    background-color: rgb(247, 197, 181);
+}
 
-    
+.header-image {
+    margin-right: 5%;
+}
+.portfolio-content {
+    max-width: 28%;
+    margin:15px auto;
+}
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+ ul.nav {
+     max-width: 40%;
+ }
+
+.extra {
+    padding:20px;
+}
 }
